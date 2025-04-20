@@ -1,0 +1,9 @@
+wheel
+motor
+requests
+requests[socks]
+apscheduler
+aiohttp
+aiohttp_socks
+python-telegram-bot
+cryptography

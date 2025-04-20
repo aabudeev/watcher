@@ -1,0 +1,60 @@
+[
+  {
+  "_id": "report",
+  "min_lim": -10,
+  "max_lim": 10,
+  "interval": 1,
+  "scan": 60
+  },
+  {
+    "_id": "socks5",
+    "ip": "",
+    "port": "",
+    "username": "",
+    "password": ""
+  },
+  {
+    "_id": "telegram",
+    "url": "https://api.telegram.org",
+    "client": {
+      "api_id": "",
+      "api_hash": "",
+      "commandor": ""
+    },
+    "api": {
+      "chat_id": "",
+      "bot": [
+        {
+          "name": "Report_Bot",
+          "api_key": ""
+        }
+      ]
+    }
+  },
+  {
+    "_id": "toolchain",
+    "geco": {
+      "url": "https://api.geckoterminal.com/api/v2/networks"
+    },
+    "ether": {
+      "url": "https://api.etherscan.io/api",
+      "chain": "eth",
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "api_key": [
+        ""
+      ]
+    }
+  },
+  {
+    "_id": "tokens",
+    "token": [
+      {
+        "name": "",
+        "chain": "",
+        "address": "",
+        "buy_price": "",
+        "quantity": ""
+      }
+    ]
+  }
+]

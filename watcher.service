@@ -1,0 +1,14 @@
+[Unit]
+Description=Watcher Service Bot
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/watcher/watcher.sh run
+WorkingDirectory=/root/watcher
+Environment="ENCRYPTION_KEY="
+User=root
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
